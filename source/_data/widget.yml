@@ -1,0 +1,14 @@
+# top:
+#   - class_name:
+#     id_name:
+#     name:
+#     icon:
+#     html:
+
+bottom:
+  - class_name:
+    id_name:
+    name: 访问次数
+    icon: fas fa-heartbeat
+    order:
+    html: '<img src="https://moe-counter.inkandkyagongsu.repl.co/get/@blog?theme=rule34" alt="moe-counter" style="width:250px"/>'
