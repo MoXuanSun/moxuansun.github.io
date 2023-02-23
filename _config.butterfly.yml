@@ -96,7 +96,7 @@ favicon: ./favicon.png
 # Avatar (頭像)
 avatar:
   img: https://cdn.jsdelivr.net/gh/MoXuanSun/pic_bed/2023/202302231438394.jpg
-  effect: false
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -252,8 +252,8 @@ noticeOutdate:
   style: flat # style: simple/flat
   limit_day: 500 # When will it be shown
   position: top # position: top/bottom
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 这篇文章是
+  message_next: 天前写的，内容可能已经过时
 
 # Share System (分享功能)
 # --------------------------------------
@@ -267,7 +267,7 @@ addThis:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: true
+  enable: false
   sites: facebook,twitter,wechat,weibo,qq
 
 # AddToAny
@@ -567,7 +567,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: true
 
 # canvas_nest
@@ -616,8 +616,8 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
-  field: post # site/post
+  enable: true
+  field: site # site/post
   title-prefix-icon: # '\f0c1'
   title-prefix-icon-color: # '#F47466'
 
@@ -665,9 +665,9 @@ preloader:
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: https://cdn.jsdelivr.net/gh/MoXuanSun/pic_bed/2023/202302232025536.css
 
 # aside (側邊欄)
 # --------------------------------------
