@@ -1,16 +1,3 @@
-local_search:
-  enable: true    # 改为 true
-
-wordcount:
-  enable: true    # 改为 true
-  post_wordcount: true
-  min2read: true
-  total_wordcount: true
-
-
-  # Comments System
-# --------------------------------------
-
 # Main menu navigation (導航目錄)
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
@@ -69,7 +56,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: false
   CDN:
 
@@ -181,7 +168,7 @@ post_meta:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
