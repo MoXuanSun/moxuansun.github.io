@@ -24,7 +24,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
-        run: git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly && npm install && npm install hexo-renderer-pug hexo-renderer-stylus # 首先克隆下插件仓库 否则会因为找不到插件仓库导致无法构建 并且这个构建不会报错
+        run: git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly && npm install && npm install hexo-renderer-pug hexo-renderer-stylus hexo-generator-search hexo-wordcount # 首先克隆下插件仓库 否则会因为找不到插件仓库导致无法构建 并且这个构建不会报错
       - name: Build
         run: npm run build
       - name: Deploy
