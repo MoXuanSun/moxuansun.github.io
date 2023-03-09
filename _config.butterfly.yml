@@ -96,7 +96,7 @@ favicon: ./favicon.png
 # Avatar (頭像)
 avatar:
   img: https://cdn.jsdelivr.net/gh/MoXuanSun/pic_bed/2023/202302231438394.jpg
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
